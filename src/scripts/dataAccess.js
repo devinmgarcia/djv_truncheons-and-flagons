@@ -6,7 +6,7 @@ const appState = {
     scores: [],
 };
 
-const apiURL = "http://localhost:8081";
+const apiURL = "https://truncheons-api-tcdro.ondigitalocean.app";
 
 const makePostJSON = (json) => {
     return {
